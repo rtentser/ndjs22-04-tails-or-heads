@@ -18,7 +18,7 @@ else console.log("You wrong!");
 
 await fsPromises.appendFile(
   logFile,
-  JSON.stringify({ number: number, guess: guess }) + "\n"
+  JSON.stringify({ number: number, guess: +guess }) + "\n"
 );
 
 rl.close();
