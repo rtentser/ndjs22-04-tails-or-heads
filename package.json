@@ -1,0 +1,15 @@
+{
+  "name": "4-tails-n-heads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
